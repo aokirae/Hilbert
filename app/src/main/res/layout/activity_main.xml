@@ -22,20 +22,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:weightSum="3">
         <Button
             android:id="@+id/dec_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="@dimen/button_text_size"
-            android:text="@string/dec_button_label" />
+            android:text="@string/dec_button_label"
+            android:background="@drawable/button_state"/>
         <Button
             android:id="@+id/inc_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="@dimen/button_text_size"
-            android:text="@string/inc_button_label" />
+            android:text="@string/inc_button_label"
+            android:background="@drawable/button_state"/>
+
     </LinearLayout>
 </LinearLayout>

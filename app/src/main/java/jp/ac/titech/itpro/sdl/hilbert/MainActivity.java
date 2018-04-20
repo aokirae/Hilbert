@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     private final static int MAX_ORDER = 9;
     private int order = 1;
     private final static String KEY_NAME = "MainActivity.name";
-    private String name = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
